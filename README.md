@@ -51,6 +51,8 @@ This project builds a full Explainable AI system for shock prediction in ICU pat
 
 Github: https://github.com/bps1418/AI_in_Healthcare
 
+Reports: [https://github.com/bps1418/AI_in_Healthcare/](https://github.com/bps1418/AI_in_Healthcare/blob/master/HighRiskProject/report/shock_prediction_llm_reasoning_score_card.pdf)
+
 | Deliverable | File/Folder |
 |:------------|:------------|
 | Report | `main.tex`, `refs.bib`, `main.pdf` (Available in Github) |
@@ -86,6 +88,7 @@ Follow below steps to walkthrough project:
 
 #PROMPT for Score card / Rating reasoning
 
+```
 You are a clinical reasoning evaluator.
 Here is the explanation:
 
@@ -106,7 +109,7 @@ Respond ONLY in JSON format like:
     "Transparency": Z,
     "Consistency": W
 }}
-
+```
 4. Plot score card csv data: 
     refer from High Risk Project/report
 5. Refer full pdf reports at
