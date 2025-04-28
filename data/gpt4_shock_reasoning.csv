@@ -1,0 +1,141 @@
+patient_id,reasoning_text,shock_probability_estimate,timestamp
+41,"1. Shock is suspected in this patient due to the significantly low SpO2 (oxygen saturation) levels and DBP (diastolic blood pressure). These readings indicate that the patient's body is not receiving adequate oxygen and blood flow, which are key indicators of shock.
+
+2. Based on the provided data, I would estimate the probability of the patient currently being in or progressing to shock to be around 90%. This is due to the persistently low SpO2 and DBP levels, which are critical indicators of shock.
+
+3. Alternative clinical explanations could include severe respiratory distress or failure, given the low SpO2 levels. Another possibility could be a severe cardiac event, such as heart failure or myocardial infarction, which could explain the low DBP.
+
+4. Important missing data that would significantly affect this prediction include the patient's heart rate, respiratory rate, and systolic blood pressure. Information about the patient's consciousness level, skin condition (cold, clammy, pale, or cyanotic), and urine output could also be crucial in making a more accurate diagnosis.",90,2025-04-27T02:17:20.286266
+132,"1. Shock is suspected in this patient due to the significantly low systolic blood pressure (SBP) readings at time points t1 and t3. SBP is a critical measure of perfusion pressure to the organs, and such low values indicate a severe compromise in blood flow, which is a characteristic of shock.
+
+2. Based on the available data, the probability that the patient is currently in or progressing to shock is approximately 80%. This is primarily due to the critically low SBP readings, despite other parameters being within normal limits.
+
+3. Alternative clinical explanations could include severe dehydration or acute heart failure, both of which can cause a significant drop in blood pressure. Additionally, the patient could have experienced a vasovagal syncope, a sudden drop in heart rate and blood pressure leading to fainting.
+
+4. Important missing data that would significantly affect this prediction include heart rate, respiratory rate, temperature, and levels of consciousness. Additionally, lab results such as lactate levels, complete blood count, and kidney function tests would provide a more comprehensive understanding of the patient's condition.",80,2025-04-27T02:17:27.255536
+126,"1. Shock is suspected in this patient due to the presence of low systolic blood pressure (SBP_t3 and SBP_t10) and low diastolic blood pressure (DBP_t2), which indicate poor perfusion. Additionally, the low SpO2_t6 suggests that the patient is not getting enough oxygen, which can be a result of inadequate blood flow, a common feature of shock.
+
+2. Based on the provided data, I would estimate the probability of this patient currently being in or progressing to shock to be around 80-90%. This is due to the combination of low blood pressure and low oxygen saturation, which are both critical indicators of shock.
+
+3. Alternative clinical explanations could include severe dehydration, which can also cause low blood pressure, or a respiratory condition such as chronic obstructive pulmonary disease (COPD) or pneumonia, which could explain the low oxygen saturation.
+
+4. Important missing data that would significantly affect my prediction include heart rate, respiratory rate, and information about the patient's level of consciousness. These are all vital signs that can provide additional insight into the patient's condition. Additionally, lab results such as lactate levels and complete blood count could be helpful in confirming or ruling out shock.",90,2025-04-27T02:17:34.992244
+177,"1. Shock is suspected in this patient due to the presence of hypoxia, as indicated by a SpO2_t1 value of 0.00, which is significantly low. Additionally, the DBP_t9 value of 0.00 is concerning as it suggests a lack of adequate blood pressure to perfuse the body's tissues.
+
+2. Based on the available data, I would estimate the probability of the patient being in or progressing to shock to be around 80%. This is due to the severe hypoxia and the extremely low diastolic blood pressure, both of which are critical indicators of shock.
+
+3. Alternative clinical explanations could include severe respiratory failure leading to hypoxia, or a major cardiovascular event such as a heart attack, which could cause a drop in blood pressure. 
+
+4. Important missing data that would significantly affect this prediction include the patient's heart rate, respiratory rate, temperature, and level of consciousness. Information about any pre-existing conditions, recent surgeries, or injuries would also be helpful. Additionally, laboratory data such as lactate levels, complete blood count, and blood gas analysis would provide a more comprehensive picture of the patient's condition.",80,2025-04-27T02:17:44.130660
+222,"1. Shock is suspected in this patient due to the persistently low SpO2 levels and low systolic blood pressure (SBP). Low SpO2 indicates poor oxygen saturation in the blood, which can be due to inadequate oxygen delivery to the tissues. The low SBP suggests poor perfusion, another hallmark of shock.
+
+2. Given the data, I would estimate the probability of this patient being in or progressing to shock to be around 90%. This is due to the persistent low SpO2 and SBP, which are critical indicators of shock.
+
+3. Alternative clinical explanations could include severe respiratory failure or cardiac failure. Both conditions can lead to low oxygen saturation and low blood pressure. 
+
+4. Important missing data that could significantly affect this prediction include heart rate, respiratory rate, temperature, and levels of lactate in the blood. These parameters can provide additional information about the patient's hemodynamic status and the severity of their condition.",90,2025-04-27T02:17:50.912434
+283,"1. Shock is suspected in this patient due to the extremely low systolic blood pressure (SBP) and diastolic blood pressure (DBP) readings. These values indicate a severe decrease in perfusion pressure, which can lead to inadequate oxygen and nutrient delivery to the body's tissues, a condition characteristic of shock.
+
+2. Given the consistently low SBP and DBP values, I would estimate the probability of this patient being in or progressing to shock to be around 90%. 
+
+3. Alternative clinical explanations could include severe dehydration or acute heart failure, both of which can cause a significant drop in blood pressure. 
+
+4. Important missing data that would significantly affect this prediction include heart rate, respiratory rate, body temperature, and blood oxygen levels. Information about the patient's medical history, current medications, and symptoms would also be valuable.",90,2025-04-27T02:17:57.715997
+157,"1. Shock is suspected in this patient due to the persistently low SpO2 levels at multiple time points, indicating that the patient's tissues are not receiving adequate oxygen. Despite the patient's systolic blood pressure (SBP) being within normal range, the low oxygen saturation levels suggest that there may be an issue with oxygen delivery to the tissues, which is a characteristic of shock.
+
+2. Based on the provided data, I would estimate the probability of the patient currently being in or progressing to shock to be around 70-80%. This is due to the consistently low SpO2 levels, which are a significant concern.
+
+3. Alternative clinical explanations could include severe respiratory conditions such as chronic obstructive pulmonary disease (COPD) or acute respiratory distress syndrome (ARDS), which can also cause low SpO2 levels. Additionally, conditions like pneumonia or pulmonary embolism could also be considered.
+
+4. Important missing data that would significantly affect this prediction include the patient's heart rate, respiratory rate, temperature, and information about any underlying conditions. Additionally, data on the patient's response to supplemental oxygen, if given, would be useful. A complete blood count (CBC) and arterial blood gas (ABG) analysis would also provide valuable information.",80,2025-04-27T02:18:06.068678
+141,"1. Shock is suspected in this patient due to the presence of low systolic blood pressure (SBP_t2: 0.00) and low diastolic blood pressure (DBP_t3: 0.00), which indicate inadequate blood flow to the body's organs and tissues. Additionally, the low oxygen saturation level at time 1 (SpO2_t1: 0.00) suggests that the patient's tissues may not be receiving enough oxygen, another common sign of shock.
+
+2. Based on the given data, I would estimate the probability of this patient currently being in or progressing to shock to be around 80%. This is due to the severe abnormalities in blood pressure and oxygen saturation, which are critical indicators of shock.
+
+3. Alternative clinical explanations could include severe dehydration, which can also cause low blood pressure, or a pulmonary condition such as chronic obstructive pulmonary disease (COPD) or pneumonia, which could explain the low oxygen saturation.
+
+4. Important missing data that would significantly affect my prediction include the patient's heart rate, respiratory rate, temperature, and level of consciousness. Additionally, information about the patient's medical history, current medications, and any recent injuries or illnesses would also be helpful in making a more accurate prediction.",80,2025-04-27T02:18:14.025170
+68,"1. Shock is suspected in this patient due to the extremely low SpO2 (oxygen saturation) and SBP (systolic blood pressure) readings. These values indicate that the patient's tissues are not receiving adequate oxygen and blood flow, which are key indicators of shock.
+
+2. Given the severity of the patient's hypoxia and hypotension, I would estimate the probability of the patient being in or progressing to shock to be around 90%.
+
+3. Alternative clinical explanations could include severe respiratory failure or cardiac arrest, both of which could cause low oxygen saturation and blood pressure. However, these conditions would also typically present with other symptoms not mentioned in the data.
+
+4. Important missing data that could significantly affect this prediction include heart rate, respiratory rate, temperature, and level of consciousness. Additionally, information about the patient's medical history, current medications, and any recent surgeries or injuries would also be useful in making a more accurate diagnosis.",90,2025-04-27T02:18:20.825085
+167,"1. Shock is suspected in this patient due to the extremely low SpO2 (oxygen saturation) and SBP (systolic blood pressure) values at multiple time points. These values indicate that the patient's tissues are not receiving adequate oxygen and blood flow, which are key indicators of shock.
+
+2. Given the severity of the patient's hypoxia and hypotension, I would estimate the probability of the patient being in or progressing to shock to be near 100%.
+
+3. Alternative clinical explanations could include severe heart failure or pulmonary embolism, both of which can cause low oxygen saturation and blood pressure. However, these conditions would typically present with additional symptoms not mentioned in the data summary.
+
+4. Important missing data that could significantly affect my prediction include the patient's heart rate, respiratory rate, temperature, and level of consciousness. Additionally, information about the patient's medical history, current medications, and any recent surgeries or injuries would also be useful in making a more accurate diagnosis.",100,2025-04-27T02:18:27.935142
+83,"1. Shock is suspected in this patient due to the extremely low systolic blood pressure (SBP_t3) and diastolic blood pressure (DBP_t6), which indicate poor perfusion. Additionally, the patient's oxygen saturation (SpO2_t7, SpO2_t4, SpO2_t8) is critically low, suggesting that the tissues are not receiving adequate oxygen.
+
+2. Given the severity of the patient's hypotension and hypoxia, I would estimate the probability of the patient being in or progressing to shock to be around 90%.
+
+3. Alternative clinical explanations could include severe heart failure, which could cause low blood pressure and oxygen saturation. Another possibility is a severe respiratory condition like acute respiratory distress syndrome (ARDS) which could lead to low oxygen saturation.
+
+4. Important missing data that would significantly affect this prediction include the patient's heart rate, respiratory rate, temperature, and level of consciousness. Information about any pre-existing conditions, recent surgeries, or trauma would also be useful.",90,2025-04-27T02:18:35.068760
+69,"1. Shock is suspected in this patient due to the significantly low SpO2_t6 value. This indicates that the patient's blood oxygen saturation is critically low, which can lead to inadequate oxygen supply to the body's tissues and organs, a condition often seen in shock.
+
+2. Based on the provided data, I would estimate the probability of the patient currently being in or progressing to shock at around 70%. This is primarily due to the low SpO2_t6 value, which is a critical indicator of shock.
+
+3. Alternative clinical explanations could include severe respiratory conditions such as pneumonia or acute respiratory distress syndrome (ARDS), which can also cause low blood oxygen levels. Heart failure is another possibility, as it can lead to inadequate oxygen supply to the body.
+
+4. Important missing data that would significantly affect the prediction include heart rate, respiratory rate, temperature, and lactate levels. These parameters are crucial in diagnosing shock and determining its severity. Additionally, information about the patient's medical history, symptoms, and physical examination findings would also be very helpful.",70,2025-04-27T02:18:41.288918
+31,"1. Shock is suspected in this patient due to the extremely low systolic and diastolic blood pressure (SBP and DBP respectively), indicating poor perfusion. Additionally, the patient's SpO2 levels are critically low, suggesting severe hypoxemia, which can lead to tissue hypoxia and organ dysfunction, hallmarks of shock.
+
+2. Given the severity of the patient's hypotension and hypoxemia, I would estimate the probability of the patient being in or progressing to shock to be around 90%.
+
+3. Differential diagnoses could include severe dehydration, acute heart failure, or a severe allergic reaction (anaphylaxis), all of which can cause hypotension and hypoxemia. 
+
+4. Important missing data that would significantly affect this prediction include heart rate, respiratory rate, temperature, and lactate levels. These parameters can help determine the type and severity of shock, and guide appropriate treatment.",90,2025-04-27T02:18:50.503941
+5,"1. Shock is suspected in this patient due to the consistently low SpO2 levels. SpO2, or peripheral oxygen saturation, is a measure of the amount of oxygen-carrying hemoglobin in the blood relative to the amount of hemoglobin not carrying oxygen. Low levels can indicate that the body's tissues and organs are not receiving enough oxygen, which can be a sign of shock.
+
+2. Based on the provided data, I would estimate a 60-70% probability that the patient is currently in or progressing to shock. This is due to the persistently low SpO2 levels, which suggest that the patient's tissues and organs may not be receiving adequate oxygen.
+
+3. Alternative clinical explanations could include severe respiratory conditions such as chronic obstructive pulmonary disease (COPD) or pneumonia, which can also cause low SpO2 levels. Heart conditions, such as heart failure, could also be a possibility as they can lead to inadequate oxygen supply to the body's tissues and organs.
+
+4. Important missing data that would significantly affect this prediction include the patient's heart rate, respiratory rate, and temperature. Information about the patient's medical history, current symptoms, and results of physical examination would also be helpful. Additionally, blood tests to measure levels of lactate and other markers of organ function would provide valuable information about the patient's condition.",70,2025-04-27T02:18:58.460080
+17,"1. Shock is suspected in this patient due to the extremely low systolic blood pressure (SBP_t10 and SBP_t3) and diastolic blood pressure (DBP_t10), indicating poor perfusion. Additionally, the low SpO2_t2 and SpO2_t7 values suggest that the patient is not adequately oxygenating, which can lead to tissue hypoxia, a common feature of shock.
+
+2. Given the severity of the patient's hypotension and hypoxia, I would estimate the probability of the patient being in or progressing to shock to be around 90%.
+
+3. Alternative clinical explanations could include severe dehydration, which can also cause hypotension, or a severe respiratory condition such as acute respiratory distress syndrome (ARDS) or pneumonia, which could explain the low SpO2 levels.
+
+4. Important missing data that would significantly affect this prediction include the patient's heart rate, temperature, and level of consciousness. Additionally, laboratory data such as lactate levels, complete blood count, and kidney function tests would be helpful in confirming the diagnosis and assessing the severity of the patient's condition.",90,2025-04-27T02:19:06.025792
+15,"1. Shock is suspected in this patient due to the persistently low diastolic blood pressure (DBP) readings at multiple time points (DBP_t6, DBP_t7, DBP_t8), indicating poor perfusion. Additionally, the low SpO2_t3 value suggests inadequate oxygen saturation, which can be a result of poor tissue perfusion, a common feature of shock.
+
+2. Based on the given data, I would estimate the probability of this patient being in or progressing to shock to be around 80-90%. The persistently low DBP and low SpO2 are strong indicators of shock.
+
+3. Alternative clinical explanations could include severe dehydration, which can also lead to low blood pressure, or a respiratory condition like chronic obstructive pulmonary disease (COPD) or pneumonia, which could explain the low SpO2.
+
+4. Important missing data that would significantly affect my prediction include heart rate, respiratory rate, temperature, and patient's consciousness level. Information about the patient's medical history, current medications, and recent events (like trauma, surgery, or infection) would also be useful.",90,2025-04-27T02:19:13.199820
+58,"1. Shock is suspected in this patient due to the extremely low SpO2 and SBP values. SpO2, or peripheral oxygen saturation, is a measure of the amount of oxygen-carrying hemoglobin in the blood relative to the amount of hemoglobin not carrying oxygen. A low SpO2 indicates that the patient is not getting enough oxygen. Similarly, a low SBP, or systolic blood pressure, indicates that the patient's heart is not pumping enough blood to the body's tissues and organs.
+
+2. Given the consistently low SpO2 and SBP values, I would estimate the probability that the patient is currently in or progressing to shock to be very high, around 90-95%.
+
+3. Alternative clinical explanations could include severe respiratory failure or cardiac arrest. Both of these conditions can lead to low SpO2 and SBP values.
+
+4. Important missing data that would significantly affect my prediction includes the patient's heart rate, respiratory rate, and temperature. These vital signs can provide additional information about the patient's condition and help to confirm or rule out the diagnosis of shock. Additionally, information about the patient's medical history, symptoms, and physical examination findings would also be helpful.",95,2025-04-27T02:19:21.397052
+6,"1. Shock is suspected in this patient due to the extremely low systolic blood pressure (SBP_t4 and SBP_t6) and low oxygen saturation levels (SpO2_t5 and SpO2_t7). These are indicative of poor perfusion and oxygenation, which are hallmarks of shock.
+
+2. Given the severity of the patient's hypotension and hypoxia, I would estimate the probability of the patient being in or progressing to shock to be around 90%.
+
+3. Alternative clinical explanations could include severe dehydration, acute heart failure, or a severe pulmonary condition such as acute respiratory distress syndrome (ARDS) which could explain the low oxygen saturation levels.
+
+4. Important missing data that would significantly affect the prediction include heart rate, respiratory rate, temperature, and lactate levels. Information about the patient's medical history, current medications, and recent events (such as surgery or trauma) would also be helpful.",90,2025-04-27T02:19:28.372194
+289,"1. Shock is suspected in this patient due to the significant drop in systolic blood pressure (SBP) at time point 8 (SBP_t8: 0.00), which is abnormally low. This sudden decrease in blood pressure can indicate a severe reduction in blood flow to the body's organs and tissues, a hallmark of shock.
+
+2. Based on the available data, I would estimate the probability of this patient currently being in or progressing to shock to be around 80-90%. This is primarily due to the drastic drop in SBP, which is a critical indicator of shock.
+
+3. Alternative clinical explanations could include severe dehydration, which can also cause a drop in blood pressure, or a cardiac event such as a heart attack, which can disrupt normal blood flow and pressure. 
+
+4. Important missing data that would significantly affect this prediction include heart rate, respiratory rate, and temperature, as these are vital signs that can indicate the body's response to a shock state. Additionally, information about the patient's medical history, symptoms, and results from lab tests (like complete blood count, blood gases, lactate levels) would provide a more comprehensive understanding of the patient's condition.",90,2025-04-27T02:19:36.370899
+57,"1. Shock is suspected in this patient due to the extremely low diastolic blood pressure (DBP) readings at two different time points (DBP_t1 and DBP_t11), which indicate inadequate blood flow to the body's tissues. Additionally, the SpO2_t0 reading is significantly low, suggesting that the patient's tissues are not receiving enough oxygen.
+
+2. Given the critical nature of these readings, I would estimate the probability of the patient currently being in or progressing to shock at around 80-90%.
+
+3. Alternative clinical explanations could include severe dehydration, which can also cause low blood pressure, or a severe respiratory condition, which could explain the low oxygen saturation.
+
+4. Important missing data that would significantly affect this prediction include the patient's heart rate, systolic blood pressure, temperature, and respiratory rate. Information about the patient's medical history, current medications, and any recent trauma or surgery would also be useful.",90,2025-04-27T02:19:42.359769
