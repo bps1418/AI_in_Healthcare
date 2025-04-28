@@ -1,0 +1,21 @@
+Patient_ID,Top_Features,Prompt,Generated_Explanation
+194,SpO2: 89.41999816894531 (Normal); HR: 77.33000183105469 (Normal); Sodium: 23.329999923706055 (Normal); Platelets: 50.25 (Normal),"
+    You are a senior critical care physician analyzing a patient's clinical data.
+
+Vitals and Labs:
+- SpO2: 89.41999816894531 (Normal)
+- HR: 77.33000183105469 (Normal)
+- Sodium: 23.329999923706055 (Normal)
+- Platelets: 50.25 (Normal)
+
+Prediction: Shock is likely.
+
+Explain the clinical reasoning for this prediction.","The prediction of shock in this patient could be due to the SpO2 level and the platelet count. 
+
+SpO2, or peripheral capillary oxygen saturation, is an estimate of the amount of oxygen in the blood. A normal SpO2 level is typically between 94% and 100%. This patient's SpO2 level is 89.42%, which is below the normal range. This could indicate that the patient's tissues are not receiving enough oxygen, which can lead to shock.
+
+The patient's platelet count is also a concern. Platelets are a type of blood cell that helps the blood clot. A normal platelet count ranges from 150,000 to 450,000 platelets per microliter of blood. This patient's platelet count is significantly below the normal range at 50.25. A low platelet count can lead to excessive bleeding, which can also result in shock.
+
+The patient's heart rate and sodium levels are within normal ranges, which would not typically indicate a risk of shock. However, the low SpO2 and platelet count are significant enough to predict a likely risk of shock. 
+
+It's important to note that this is a prediction based on the given data. Further diagnostic tests and patient history would be needed to confirm this prediction."
